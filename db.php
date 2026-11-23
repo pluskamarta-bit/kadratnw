@@ -2,7 +2,7 @@
 session_start();
 $host = 'localhost';
 $user = 'root';
-$pass = ''; // w XAMPP domyślnie hasło jest puste
+$pass = '';
 $dbname = 'tenis_wozki';
 
 $conn = new mysqli($host, $user, $pass, $dbname);
